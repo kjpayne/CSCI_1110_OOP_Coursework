@@ -26,7 +26,7 @@ public class Catching_OutOfBounds_Exception {
             
             System.out.println("The number at index " + index + " is " + array[index]);
         }
-        catch (Catching_OutOfBounds_Exception ex) {
+        catch (ArrayIndexOutOfBoundsException ex) {
             System.out.println("Out of Bounds");
         }
     }
