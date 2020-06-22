@@ -56,7 +56,7 @@ public class Wrtie_Read_Data {
                     }
                 }
                 for (int i = 0; i < nums.length; i++) {
-                    System.out.print(nums[1] + " ");
+                    System.out.print(nums[i] + " ");
                 }
             }
         }
