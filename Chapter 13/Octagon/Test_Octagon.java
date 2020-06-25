@@ -18,6 +18,14 @@ public class Test_Octagon {
         Octagon octClone = (Octagon)oct.clone();
         
         //Comparing the two objects
-        System.out.println(oct.compareTo(octClone));
+        switch (oct.compareTo(octClone)) {
+            case 1: System.out.println("Octagon 1 is greater than Octagon 2.");
+                    break;
+            
+            case -1: System.out.println("Octagon 2 is greater than Octagon 1.");
+                     break;
+                     
+            case 0: System.out.println("Octagon 1 and Octagon 2 are the same.");
+        }
     }
 }
