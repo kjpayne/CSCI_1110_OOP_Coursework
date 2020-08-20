@@ -31,7 +31,7 @@ public class Decrypt {
             decrypt = new char[encrypt.length / 2];
             int index = 0;
             for (int i = 0; i < encrypt.length; i++) {
-                if (encrypt[i] != '5') {
+                if (i % 2 == 0) {
                     decrypt[index] = encrypt[i];
                 }
                 else {
