@@ -91,3 +91,6 @@ public void rotateTriangle(double cX, double cY) {
         triangle.setRotate(degrees);
     }
 ```
+## A Look At The Demo
+[This is what it looks like!](SR_Snip_1.PNG)
+[And this too!](SR_Snip_2.PNG)
