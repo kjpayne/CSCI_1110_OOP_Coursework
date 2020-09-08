@@ -2,4 +2,4 @@
 
 This has my assignments for my Object Oriented Programming class
 
-Assignments from: Chapter 9-18
+Assignments from: Chapter 9-18 and Final Project
